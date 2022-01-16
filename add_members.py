@@ -13,9 +13,9 @@ import random
 
 # These example values won't work. You must get your own api_id and
 # api_hash from https://my.telegram.org, under API Development.
-api_id = "13055145"
-api_hash = "a81413f7622ea1b0333bf1775e31f502"
-phone = "+923369961618"
+api_id = ""
+api_hash = ""
+phone = ""
 client = TelegramClient(phone, api_id, api_hash)
 client.start()
 
